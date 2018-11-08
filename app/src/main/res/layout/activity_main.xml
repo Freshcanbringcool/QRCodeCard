@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="myview.dxp.com.qrcodecard.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <view.MyLayout
+            android:id="@+id/name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></view.MyLayout>
+
+        <view.MyLayout
+            android:id="@+id/phone_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></view.MyLayout>
+
+        <view.MyLayout
+            android:id="@+id/bookname_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></view.MyLayout>
+
+        <view.MyLayout
+            android:id="@+id/studentname_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></view.MyLayout>
+
+        <view.MyLayout
+            android:id="@+id/returnbookdata_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </view.MyLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="35dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapew"
+        android:layout_gravity="left"
+        android:onClick="clickedCreate"
+        android:text="我要生成二维码" />
+<View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击扫描"
+
+        android:background="@drawable/shapew"
+        android:onClick="clickedCreate">
+    </Button>
+
+</LinearLayout>
+</LinearLayout>

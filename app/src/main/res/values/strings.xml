@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">证件二维码</string>
+    <string name="name">姓名&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="bookname">借阅书名</string>
+    <string name="studentname"> 学生号&#160;&#160;&#160;&#160;</string>
+    <string name="returnbookdata">还书日期</string>
+   <string name="phone">手机&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+
+    <string name="create_code">生成二维码</string>
+    <string name="scanner_code">扫描二维码</string>
+
+    <string name="scanner_result">扫描结果</string>
+
+</resources>

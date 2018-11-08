@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+   >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textSize="@dimen/tv"
+        android:layout_margin="@dimen/distance" />
+    <EditText
+        android:id="@+id/et"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:hint="请输入"
+        android:textSize="@dimen/tv"
+        android:background="@drawable/et_bg"
+        android:layout_margin="@dimen/distance"/>
+</LinearLayout>
